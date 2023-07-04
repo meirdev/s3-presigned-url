@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "s3-presigned-url"
+version = "0.1.0"
+description = ""
+authors = ["meirdev <maornet@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.27.0"
+tqdm = "^4.65.0"
+httpx = "^0.24.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
